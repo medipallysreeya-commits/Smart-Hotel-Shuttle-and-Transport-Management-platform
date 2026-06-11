@@ -1,0 +1,3 @@
+A modern web-based transportation management system designed for hotels to streamline guest shuttle services and transport operations. The platform enables guests to book shuttle rides, view booking history, receive notifications, and access QR-based boarding passes. It also provides dedicated dashboards for drivers and administrators to manage trips, vehicles, routes, and transportation analytics efficiently.
+
+Built using React and Vite, the project focuses on delivering a seamless user experience with role-based access for guests, drivers, and administrators. The system aims to improve transportation coordination, reduce manual effort, and enhance guest satisfaction through a centralized and user-friendly interface.
