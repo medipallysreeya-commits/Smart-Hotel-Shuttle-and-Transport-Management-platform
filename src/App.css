@@ -1,0 +1,1544 @@
+.auth-container{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#0b0b0b;
+}
+
+.auth-box{
+  width:700px;
+  min-height:500px;
+  padding:50px;
+  border-radius:25px;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(212,175,55,0.25);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.auth-box h1{
+  text-align:center;
+  color:#d4af37;
+  font-size:40px;
+  line-height:1.4;
+  margin-bottom:30px;
+}
+
+.auth-box h2{
+  text-align:center;
+  color:white;
+  margin-bottom:25px;
+}
+
+.auth-box input{
+  width:100%;
+  padding:14px;
+  margin-bottom:15px;
+  border:none;
+  border-radius:12px;
+  background:rgba(255,255,255,0.08);
+  color:white;
+}
+
+.auth-btn{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:12px;
+  background:#d4af37;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+.auth-box p{
+  text-align:center;
+  color:white;
+  margin-top:20px;
+}
+
+.auth-box span{
+  color:#d4af37;
+  cursor:pointer;
+}
+.dashboard{
+  display:flex;
+  min-height:100vh;
+  background:#0b0b0b;
+}
+
+.sidebar{
+  width:260px;
+  background:#111;
+  padding:30px;
+  border-right:1px solid rgba(212,175,55,0.2);
+}
+
+.sidebar h2{
+  color:#d4af37;
+  margin-bottom:40px;
+}
+
+.sidebar ul{
+  list-style:none;
+}
+
+.sidebar li{
+  padding:15px 0;
+  color:white;
+  cursor:pointer;
+}
+
+.sidebar li:hover{
+  color:#d4af37;
+}
+
+.main-content{
+  flex:1;
+  padding:40px;
+}
+
+.hero h1{
+  color:#d4af37;
+  font-size:42px;
+  line-height:1.0;
+  margin-bottom:20px;
+}
+
+.hero p{
+  color:white;
+  margin-bottom:40px;
+}
+
+.card-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(212,175,55,0.2);
+  border-radius:20px;
+  padding:25px;
+}
+
+.card h3{
+  color:#d4af37;
+  margin-bottom:10px;
+}
+
+.card p{
+  color:white;
+  font-size:24px;
+}
+.dashboard{
+  display:flex;
+  min-height:100vh;
+  background:#0b0b0b;
+}
+
+.sidebar{
+  width:320px;
+  background:#111;
+  padding:25px;
+  border-right:1px solid rgba(212,175,55,0.2);
+}
+
+.sidebar h2{
+  color:#d4af37;
+  line-height:1.5;
+  font-size:20px;
+  margin-bottom:40px;
+}
+
+.sidebar ul{
+  list-style:none;
+  padding:0;
+}
+
+.sidebar li{
+  color:white;
+  padding:15px 0;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.sidebar li:hover{
+  color:#d4af37;
+}
+
+.main-content{
+  flex:1;
+  padding:40px;
+}
+
+.top-bar{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+
+.top-bar h1{
+  color:#d4af37;
+  line-height:1.5;
+  font-size:38px;
+}
+
+.icons{
+  display:flex;
+  gap:20px;
+  font-size:30px;
+  cursor:pointer;
+}
+
+.welcome-card{
+  margin-top:30px;
+  padding:25px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(212,175,55,0.2);
+}
+
+.welcome-card h2{
+  color:#d4af37;
+  margin-bottom:15px;
+}
+
+.welcome-card p{
+  color:white;
+  line-height:1.8;
+}
+
+.card-container{
+  margin-top:30px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:rgba(255,255,255,0.05);
+  border:1px solid rgba(212,175,55,0.2);
+  border-radius:20px;
+  padding:20px;
+}
+
+.card h3{
+  color:#d4af37;
+  margin-bottom:10px;
+}
+
+.card p{
+  color:white;
+}
+/* ==========================================================================
+   TRANSIT MATTERS & SEARCH ELEMENT LAYOUTS (DASHBOARD UPGRADE)
+   ========================================================================== */
+
+/* Search Hero Block Container */
+.transit-search-hero {
+  margin-top: 30px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  text-align: center;
+}
+
+.transit-search-hero h2 {
+  color: #d4af37;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.transit-search-hero p {
+  color: white;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  font-size: 15px;
+  opacity: 0.85;
+}
+
+/* Mytransfers Inspired Layout Field Rows */
+.transit-search-bar {
+  display: flex;
+  gap: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  flex-wrap: wrap;
+}
+
+.transit-input {
+  flex: 1;
+  min-width: 250px;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.transit-input:focus {
+  border-color: #d4af37 !important;
+}
+
+.transit-search-btn {
+  padding: 0 30px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  background: #d4af37;
+  color: #0b0b0b;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.transit-search-btn:hover {
+  opacity: 0.9;
+}
+
+/* Premium Pillars Information Grid */
+.transit-features-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.transit-feature-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+  border-radius: 20px;
+  padding: 30px;
+  transition: transform 0.2s ease;
+}
+
+.transit-feature-card:hover {
+  transform: translateY(-2px);
+}
+
+.transit-feature-card h3 {
+  color: #d4af37;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.transit-feature-card p {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Bottom CTA Quick Action Validation Ribbon */
+.transit-promo-banner {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.15), rgba(17, 11, 11, 0.3));
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.banner-text h3 {
+  color: #d4af37;
+  margin: 0 0 8px 0;
+  font-size: 20px;
+}
+
+.banner-text p {
+  color: white;
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.banner-action-btn {
+  padding: 12px 24px;
+  background: transparent;
+  color: #d4af37;
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.banner-action-btn:hover {
+  background: #d4af37;
+  color: #0b0b0b;
+}
+/* ==========================================================================
+   SHUTTLE BOOKING & TRANSPORT FLEET MANAGEMENT GRAPHICS
+   ========================================================================== */
+
+.subtitle-tag {
+  color: #a0a0a0;
+  font-size: 14px;
+  margin-top: -15px;
+  margin-bottom: 25px;
+}
+
+/* Flex Grid Structure for Booking View */
+.booking-split-view, .management-grid-layout {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.booking-form-box, .drivers-selection-panel {
+  flex: 1;
+  min-width: 380px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.booking-form-box h3, .drivers-selection-panel h3, .uber-tracking-radar-box h3 {
+  color: #d4af37;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  padding-bottom: 10px;
+}
+
+.input-group-row {
+  margin-bottom: 20px;
+}
+
+.input-group-row label {
+  display: block;
+  color: white;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input-group-row input {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Ledger Billing Styles Integration */
+.billing-integration-zone {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.section-small-label {
+  color: #d4af37;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.billing-toggle-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.billing-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.billing-card h4 {
+  margin: 0;
+  color: white;
+  font-size: 14px;
+}
+
+.billing-card p {
+  margin: 3px 0 0 0;
+  color: #a0a0a0;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.billing-icon {
+  font-size: 22px;
+}
+
+.billing-card.active {
+  border-color: #d4af37;
+  background: rgba(212, 175, 55, 0.08);
+}
+
+.confirm-booking-btn, .confirm-selection-dispatch-btn {
+  width: 100%;
+  padding: 15px;
+  background: #d4af37;
+  color: #0b0b0b;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.confirm-booking-btn:hover, .confirm-selection-dispatch-btn:hover {
+  opacity: 0.9;
+}
+
+/* Uber Style Satellite Box Format Map Layout */
+.uber-map-container, .uber-tracking-radar-box {
+  flex: 1.2;
+  min-width: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mock-vector-map {
+  flex: 1;
+  min-height: 320px;
+  background: #141414;
+  border: 1px dashed rgba(212, 175, 55, 0.3);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Map grid line details for simulation look */
+.map-grid-line {
+  position: absolute;
+  background: rgba(212, 175, 55, 0.04);
+}
+.vertical-1 { left: 33%; width: 1px; height: 100%; }
+.vertical-2 { left: 66%; width: 1px; height: 100%; }
+.horizontal-1 { top: 33%; height: 1px; width: 100%; }
+.horizontal-2 { top: 66%; height: 1px; width: 100%; }
+
+.map-badge {
+  align-self: flex-start;
+  background: #d4af37;
+  color: #0b0b0b;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.map-helper-watermark {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.map-marker {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: white;
+}
+
+.pin-pickup { top: 25%; left: 20%; border-left: 3px solid 🟢; }
+.pin-dropoff { bottom: 30%; right: 15%; border-left: 3px solid 🔴; }
+
+.map-footer-status {
+  margin-top: 15px;
+  color: #cccccc;
+  font-size: 13px;
+}
+
+/* Driver Module Profiling Block Containers */
+.panel-helper-text {
+  color: #a0a0a0;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.driver-cards-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.driver-profile-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 18px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.driver-profile-box:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(212, 175, 55, 0.4);
+}
+
+.driver-profile-box.selected-highlight {
+  border-color: #d4af37;
+  background: rgba(212, 175, 55, 0.08);
+}
+
+.driver-box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.driver-box-header h4 {
+  margin: 0;
+  color: white;
+  font-size: 16px;
+}
+
+.driver-rating-pill {
+  font-size: 13px;
+  background: rgba(212, 175, 55, 0.2);
+  color: #d4af37;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+}
+
+.status-dot-tag {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 20px;
+}
+.status-dot-tag.available { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
+.status-dot-tag.busy { background: rgba(239, 68, 68, 0.15); color: #ef4444; }
+
+.driver-detail-text {
+  margin: 0 0 10px 0;
+  color: #cccccc;
+  font-size: 13px;
+}
+
+/* Feature Target Element: Guest Manifests */
+.manifest-log-subbox {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #b0b0b0;
+  border-left: 2px solid #d4af37;
+}
+
+/* Uber Trace Progress Map Modals */
+.empty-radar-state {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.radar-icon-placeholder {
+  font-size: 48px;
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+.empty-radar-state h4 { color: white; margin: 0 0 8px 0; }
+.empty-radar-state p { color: #888888; font-size: 13px; line-height: 1.5; max-width: 300px; }
+
+.active-radar-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.radar-status-banner {
+  background: rgba(212, 175, 55, 0.15);
+  color: #d4af37;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.trace-map-canvas {
+  flex: 1;
+  min-height: 240px;
+  background: #141414;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.trace-path-line {
+  position: absolute;
+  left: 80px;
+  right: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #d4af37 50%, rgba(255,255,255,0.1) 50%);
+  background-size: 20px 100%;
+}
+
+.trace-checkpoint {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.trace-checkpoint .icon {
+  font-size: 28px;
+  background: #1e1e1e;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #d4af37;
+}
+
+.trace-checkpoint .label {
+  margin-top: 8px;
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+.eta-floating-counter {
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid #d4af37;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.eta-floating-counter h5 { margin: 0; color: #d4af37; font-size: 9px; letter-spacing: 1px; }
+.eta-floating-counter h2 { margin: 2px 0; color: white; font-size: 24px; font-weight: bold; }
+.eta-floating-counter p { margin: 0; color: #a0a0a0; font-size: 10px; }
+
+.radar-controls-footer {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.simulate-btn {
+  background: transparent;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.simulate-btn:hover { background: #d4af37; color: #0b0b0b; }
+
+.radar-controls-footer p { margin: 0; color: #666; font-size: 11px; }
+
+/* Global Sticky Nav Footer Rows for Back Buttons */
+.navigation-footer-row {
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 25px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.back-dashboard-btn {
+  background: rgba(255, 255, 255, 0.05);
+  color: #d4af37;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back-dashboard-btn:hover {
+  background: rgba(212, 175, 55, 0.1);
+  border-color: #d4af37;
+}
+
+/* Simple Animation Keyframes */
+.animate-pulse { animation: radarPulse 2s infinite ease-in-out; }
+@keyframes radarPulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+/* ==========================================================================
+   SKETCH ACCENT STRUCTURE & PLATFORM LAYOUT CODES
+   ========================================================================== */
+
+.sketch-container-box {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 20px;
+  padding: 35px;
+  max-width: 750px;
+  margin: 20px auto;
+}
+
+/* Scroll feature requested in your sketch notes */
+.scrollable-view-panel {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.sketch-title {
+  color: #d4af37;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.helper-label-text {
+  color: #888888;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+/* Gold Border Margin Input Form Styles */
+.gold-input-wrapper {
+  margin-bottom: 20px;
+}
+
+.gold-input-wrapper label {
+  display: block;
+  color: white;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.gold-input-wrapper input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(212, 175, 55, 0.2) !important;
+  color: white;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.gold-input-wrapper input:focus {
+  border-color: #d4af37 !important;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.2);
+}
+
+/* Built-in Visual Mapping Grid Layout */
+.sketch-map-zone {
+  margin: 25px 0;
+}
+
+.map-title-tag {
+  color: #d4af37;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.vector-radar-grid {
+  background: #111111;
+  border: 1px dashed rgba(212, 175, 55, 0.4);
+  border-radius: 12px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.pulse-dot-source {
+  color: #22c55e;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.pulse-dot-dest {
+  color: #ef4444;
+  font-size: 13px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.animated-vector-line {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg, #d4af37 50%, transparent 50%);
+  background-size: 15px 100%;
+}
+
+.grid-watermark-text {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.15);
+  letter-spacing: 1px;
+}
+
+/* Stacked Driver Box Format Controls */
+.driver-selection-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.sketch-driver-row-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+.sketch-driver-row-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sketch-driver-row-card.active-gold-glow {
+  border-color: #d4af37;
+  background: rgba(212, 175, 55, 0.1);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.15);
+}
+
+.driver-main-info p {
+  margin: 4px 0;
+  color: white;
+  font-size: 15px;
+}
+
+.driver-sub-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  color: #aaaaaa;
+  font-size: 13px;
+}
+
+.status-badge-green {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.gold-text {
+  color: #d4af37;
+}
+
+.selection-status-toast {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+  background: rgba(212, 175, 55, 0.05);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Master Grid Action Row Controls */
+.action-row-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.gold-action-btn {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #d4af37;
+  color: #0b0b0b;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.gold-back-btn {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #d4af37;
+  border-radius: 12px;
+  background: transparent;
+  color: #d4af37;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.gold-action-btn:hover {
+  opacity: 0.9;
+}
+
+.gold-back-btn:hover {
+  background: rgba(212, 175, 55, 0.1);
+}
+/* Real Interactive Map Box Container */
+.real-live-map-wrapper {
+  width: 100%;
+  height: 250px;
+  background: #111111;
+  border: 1px solid #d4af37; /* Clean solid gold margin border requested */
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.1);
+  margin-top: 10px;
+  position: relative;
+}
+
+/* Enhances the map iframe display properties */
+.real-live-map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.real-live-map-wrapper iframe:hover {
+  opacity: 1;
+}
+/* ==========================================================================
+   LIVE VEHICLE VECTOR ARIVAL TRACKING CONTROLS (UBER/OLA UPGRADE)
+   ========================================================================== */
+
+.live-tracking-panel {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.tracking-header-status h3 {
+  color: #d4af37;
+  font-size: 24px;
+  margin: 10px 0 5px 0;
+}
+
+.tracking-header-status p {
+  color: white;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.live-radar-ping {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.15);
+  padding: 4px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  animation: radarPulse 1.5s infinite ease-in-out;
+}
+
+/* Uber Vector Progress Mapping Lane Wrapper */
+.uber-vector-map-box {
+  background: #111111;
+  border: 1px solid #d4af37; /* Matches requested gold accent borders */
+  border-radius: 16px;
+  height: 140px;
+  margin: 30px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.map-connecting-line {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  height: 4px;
+  background: dashed rgba(212, 175, 55, 0.3);
+}
+
+/* Dynamic Moving Shuttle Node Layout */
+.moving-shuttle-node {
+  position: absolute;
+  font-size: 32px;
+  transform: translateX(-50%);
+  transition: left 1s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  z-index: 5;
+}
+
+.lobby-destination-node {
+  position: absolute;
+  right: 40px;
+  font-size: 32px;
+  transform: translateX(50%);
+  z-index: 4;
+}
+
+.node-tooltip {
+  display: block;
+  font-size: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  margin-top: -5px;
+}
+
+/* Luxury ETA Dashboard Display */
+.eta-counter-display-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px dashed rgba(212, 175, 55, 0.2);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.eta-counter-display-card h5 {
+  margin: 0;
+  color: #888888;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.eta-counter-display-card h2 {
+  margin: 8px 0;
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.small-mins {
+  font-size: 18px;
+  color: #d4af37;
+  font-weight: normal;
+}
+
+.tracking-footer-actions {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 20px;
+}
+
+/* Interactive Action Animations */
+.pulse-glow-btn {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+}
+/* Real-world Uber Style Route Tracking Map Box */
+.uber-live-map-route-box {
+  width: 100%;
+  height: 300px;
+  background: #111111;
+  border: 1px solid #d4af37; /* Clean solid gold margin frame border */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+  margin: 25px 0;
+}
+
+.uber-live-map-route-box iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+}
+/* ==========================================================================
+   NOTIFICATIONS & LUXURY PROFILE VISUAL LAYOUT ELEMENTS
+   ========================================================================== */
+
+/* Universal Uniform Gold Margin Border Utility used in Sketches */
+.margin-gold-border {
+  border: 1px solid #d4af37 !important;
+  border-radius: 14px;
+}
+
+/* Notification Layout Row Blocks */
+.notifications-stack-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.notification-alert-box {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 18px;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.notification-alert-box:hover {
+  transform: translateX(4px);
+}
+
+.alert-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.alert-title-main {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+
+.alert-body-content {
+  margin: 0 0 8px 0;
+  color: #cccccc;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.alert-timestamp-footer {
+  font-size: 11px;
+  color: #777777;
+  display: block;
+}
+
+.dismiss-alert-btn {
+  background: transparent;
+  color: #888888;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.dismiss-alert-btn:hover { color: #ef4444; }
+
+/* Custom Variant Notification Alert Left Edge Highlighters */
+.urgent-alert { border-left: 4px solid #ef4444 !important; }
+.success-alert { border-left: 4px solid #22c55e !important; }
+.info-alert { border-left: 4px solid #3b82f6 !important; }
+
+.empty-notifications-state {
+  text-align: center;
+  padding: 40px;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  color: #888888;
+}
+.empty-notifications-state span { font-size: 36px; display: block; margin-bottom: 10px; }
+
+/* Luxury Profile Credential Badge Styles */
+.luxury-profile-badge-card {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.03) 0%, rgba(0, 0, 0, 0.6) 100%);
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  margin-bottom: 30px;
+}
+
+.badge-header-crest {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed rgba(212, 175, 55, 0.2);
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.hotel-crown-emblem { font-size: 28px; }
+.membership-tier-stamp {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #d4af37;
+  text-transform: uppercase;
+  background: rgba(212, 175, 55, 0.12);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.profile-fields-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.profile-data-row label {
+  display: block;
+  font-size: 11px;
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.profile-data-row h3 {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.profile-data-row p {
+  margin: 0;
+  color: #cccccc;
+  font-size: 14px;
+}
+
+.sub-date-label { color: #d4af37 !important; font-family: monospace; }
+
+.badge-footer-security {
+  margin-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 15px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+/* ==========================================================================
+   SIMPLE PROFILE LAYOUT STYLES
+   ========================================================================== */
+
+.simple-profile-card {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.profile-info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 12px;
+}
+
+.profile-info-row:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.info-label {
+  font-size: 13px;
+  color: #888888;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-value {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+/* ==========================================================================
+   BOOKING HISTORY & QR PASSPORT BOX FORMAT DESIGN SPECIFICATIONS
+   ========================================================================== */
+
+/* Booking History Rows formatting */
+.history-table-wrapper {
+  background: rgba(255, 255, 255, 0.02);
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.history-row-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.history-row-card:last-child {
+  border-bottom: none;
+}
+
+.history-date-badge {
+  font-size: 11px;
+  color: #888888;
+  font-family: monospace;
+}
+
+.history-route-text {
+  margin: 6px 0 4px 0;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.history-driver-text {
+  margin: 0;
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
+/* History Badges Status Design */
+.status-pill-completed {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22c55e;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.status-pill-cancelled {
+  background: rgba(239, 68, 68, 0.12);
+  color: #ef4444;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* QR Pass Ticket Formatting layout */
+.qr-ticket-box-card {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  text-align: center;
+  max-width: 320px;
+  margin: 0 auto 30px auto;
+}
+
+.ticket-header-brand h4 {
+  margin: 0 0 5px 0;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.live-pill-tag {
+  font-size: 10px;
+  color: #22c55e;
+  background: rgba(34, 197, 94, 0.15);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+/* Beautiful Minimal Vector QR Code Box Canvas */
+.qr-graphic-square-wrapper {
+  background: white;
+  width: 180px;
+  height: 180px;
+  margin: 25px auto;
+  border-radius: 12px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.mock-qr-matrix {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 2px dashed #111111;
+}
+
+.qr-corner-box {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #111111;
+  background: white;
+}
+.top-left { top: 0; left: 0; }
+.top-right { top: 0; right: 0; }
+.bottom-left { bottom: 0; left: 0; }
+
+.qr-center-dots {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-image: radial-gradient(#111111 25%, transparent 25%);
+  background-size: 10px 10px;
+}
+
+.ticket-meta-footer p {
+  margin: 6px 0;
+  color: #cccccc;
+  font-size: 13px;
+}
+/* Fixes and enhances the real image inside the QR block frame */
+.actual-qr-code-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  border-radius: 4px;
+}
+
+/* Subtle glow effect behind the genuine pass box wrapper */
+.real-qr-glow {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1), 0 0 4px rgba(212, 175, 55, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
